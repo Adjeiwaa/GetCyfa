@@ -1,0 +1,17 @@
+body {
+    padding: 20px;
+    background-color: #d1b3db;
+}
+
+form {
+    padding: 10px;
+}
+
+.feature {
+    background-color: #fff;
+    padding: 25px;
+}
+
+.rounded {
+    width: 200px;
+}
