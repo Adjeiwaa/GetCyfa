@@ -1,17 +1,67 @@
 body {
-    padding: 20px;
-    background-color: #d1b3db;
-}
-
-form {
+    background-image: url(../assets/pattern.svg);
+    color: #28396e;
+    height: 1960;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: 'Montserrat', sans-serif;
     padding: 10px;
 }
 
 .feature {
-    background-color: #fff;
-    padding: 25px;
+    color: #28396e;
+
+    text-align: center;
 }
 
-.rounded {
+#form_Data {
+  display: block;
+ /* width: 600px;*/
+}
+
+
+.btn  {
+    border-radius: 50px 50px 50px;
+    width: 160px;
+    background-color: #28396e !important;
+}
+
+.btn:hover {
+  background-color: #28396e;
+}
+
+.hi {
+    text-align: center;
+}
+
+.input-field label {
+     color: #28396e;
+   }
+
+.input-field input[type=text]:focus {
+     color: #28396e;
+   }
+
+.input-field {
+    color: #28396e;
+    background-color: #fff;
     width: 200px;
 }
+
+.thanks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+}
+
+#modal {
+  padding: 30px;
+}
+
+.img-responsive {
+  width: 240px;
+}
+
